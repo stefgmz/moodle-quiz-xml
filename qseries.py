@@ -57,13 +57,13 @@ class QSeries:
                          image_width=279,
                          image_height=486,
                          tolerance=0):
-        """Appends a question to the series of questions.
+        """Appends a numerical question to the series of questions.
         
         Args:
             title: The title of the question.
             question_text: The question itself.
             answer: The numerical answer.
-            tolerance: A relative tolerance which accepts answers the deviate
+            tolerance: A relative tolerance which accepts answers that deviate
                 from the correct answer.
                 
         Raises:
